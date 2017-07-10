@@ -16,14 +16,14 @@
       "title": "Server URL",
       "description": "URL of the storyfinder server",
       "type": "string",
-      "value": "https://storyfinder.kisad.de"
+      "value": "http://localhost:3055"
     },
     {
       "name": "enabled",
       "title": "Enable Storyfinder",
       "description": "Enable or disable storyfinder",
       "type": "bool",
-      "value": false
+      "value": true
     },
     {
       "name": "showSidebar",
@@ -37,7 +37,7 @@
       "title": "Username",
       "description": "Your storyfinder username",
       "type": "string",
-      "value": "",
+      "value": "a@b.com",
       "hidden": true
     },
     {
@@ -45,7 +45,7 @@
       "title": "Password",
       "description": "Your storyfinder password",
       "type": "string",
-      "value": "",
+      "value": "12345678",
       "hidden": true
     },
     {
@@ -58,6 +58,10 @@
   ],
   "dependencies": {
     "async": "^2.0.1",
-    "readability": "^0.1.0"
+    "readability": "^0.1.0",
+    "dom-delegate": "^2.0.3",
+    "escape-string-regexp": "^1.0.5",
+    "html5": "^1.0.5",
+    "lodash": "^4.15.0"
   }
 }
